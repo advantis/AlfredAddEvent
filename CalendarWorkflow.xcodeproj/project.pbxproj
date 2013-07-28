@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D527A15174A214DBB380E7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D527AF99110F23D40B93CC06 /* main.m */; };
+		D527A325639F9460702B33DD /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D527A892CE8CD224636E4D22 /* EventKit.framework */; };
+		D527AC46E7310B5F32399BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D527A58FED3AD17DBEE62430 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D527A022E9622B721EF62A88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D527A58FED3AD17DBEE62430 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D527A7159D5B21A214741408 /* CalendarWorkflow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalendarWorkflow; sourceTree = BUILT_PRODUCTS_DIR; };
+		D527A892CE8CD224636E4D22 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D527AF99110F23D40B93CC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D527ACE685E4171F2DF641B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D527AC46E7310B5F32399BCF /* Foundation.framework in Frameworks */,
+				D527A325639F9460702B33DD /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D527A0B62FD984A1AFA03A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D527A58FED3AD17DBEE62430 /* Foundation.framework */,
+				D527A892CE8CD224636E4D22 /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D527A1E94C48D92428CD5383 /* CalendarWorkflow */ = {
+			isa = PBXGroup;
+			children = (
+				D527AF99110F23D40B93CC06 /* main.m */,
+			);
+			path = CalendarWorkflow;
+			sourceTree = "<group>";
+		};
+		D527A5CB6CB436DC7556FCBA = {
+			isa = PBXGroup;
+			children = (
+				D527A7AA3308F15BC1D4F8F4 /* Products */,
+				D527A0B62FD984A1AFA03A90 /* Frameworks */,
+				D527A1E94C48D92428CD5383 /* CalendarWorkflow */,
+			);
+			sourceTree = "<group>";
+		};
+		D527A7AA3308F15BC1D4F8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D527A7159D5B21A214741408 /* CalendarWorkflow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D527A0A9CC10B52B60748F3D /* CalendarWorkflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D527A6BF5595D0BDCD1055F0 /* Build configuration list for PBXNativeTarget "CalendarWorkflow" */;
+			buildPhases = (
+				D527A7DCD003A60851B5656D /* Sources */,
+				D527ACE685E4171F2DF641B8 /* Frameworks */,
+				D527A022E9622B721EF62A88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarWorkflow;
+			productName = CalendarWorkflow;
+			productReference = D527A7159D5B21A214741408 /* CalendarWorkflow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D527A57B2E0E7AE263A0B2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Advantis;
+			};
+			buildConfigurationList = D527AB54DE0EE059484FFCE5 /* Build configuration list for PBXProject "CalendarWorkflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D527A5CB6CB436DC7556FCBA;
+			productRefGroup = D527A7AA3308F15BC1D4F8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D527A0A9CC10B52B60748F3D /* CalendarWorkflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D527A7DCD003A60851B5656D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D527A15174A214DBB380E7C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D527A27BEA011256A7D37A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D527A96D81F830D13A980077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D527A98592B8C1AC03837CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D527AEE9FEF72EC9E304B427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D527A6BF5595D0BDCD1055F0 /* Build configuration list for PBXNativeTarget "CalendarWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D527AEE9FEF72EC9E304B427 /* Release */,
+				D527A96D81F830D13A980077 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D527AB54DE0EE059484FFCE5 /* Build configuration list for PBXProject "CalendarWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D527A98592B8C1AC03837CAF /* Release */,
+				D527A27BEA011256A7D37A9F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D527A57B2E0E7AE263A0B2AA /* Project object */;
+}
